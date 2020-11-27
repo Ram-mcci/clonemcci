@@ -1,0 +1,39 @@
+Algorithm:
+1. Start
+2. I have used function with no argument and no return value
+3. Declared a function called add
+4. Function has been called (add)
+5. Inside the function definition statements have been entered
+* Declared a variable (num)
+* Address was stored in the memory
+* Conditional statement was applied 
+* If it is true, given number is even
+* Else the given number is odd
+    6.Stop
+
+
+Coding:
+#include <stdio.h>
+#include <conio.h>
+void add (void);
+void main ()
+         {
+           add ();
+         }
+         void add (void)
+            {
+                    int num;
+                    printf ("enter the number");
+                    scanf ("%d", &num);
+                    if (num %2 == 0)
+                         {
+                            printf("%d is even",num);
+                         }
+                            else
+                               {
+                                   printf ("%d is odd",num);
+                               }
+                    
+            }
+
+
